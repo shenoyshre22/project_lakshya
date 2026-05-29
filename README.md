@@ -53,15 +53,19 @@ Malware syndicates constantly recycle codebase frameworks across separate campai
 ├── README.md                        # Master Technical Documentation
 ├── docs/                            # Holds all registration and architectural design documents
 │   ├── Team_Kavacha_CIDECODE_2026_ABSTRACT.pdf   # Final Formatted Abstract PDF for Registration
+|   ├── TEAM_KAVACHA_PPT_CIDECODE.pdf #the ppt for our problem statement
 │   └── system_architecture_flow.pdf # Visual Forensic Pipeline & Feature Area Blueprints
 ├── src/                             # Main Source Directory wrapping all application code
 │   ├── backend/                     # Python Forensic Extraction Backend (FastAPI/Flask)
 │   │   ├── core_parsers/            # Manifest, Layout Resources & Artifact Extraction Logics
 │   │   ├── genealogy/               # Function Call Graph (FCG) Extraction & Vectorization
+|   |   ├── main.py
 │   │   └── clustering_engine/       # NetworkX Cross-Case Infrastructure Linkage Arrays
+
 │   └── frontend/                    # ReactJS Investigator Triage Dashboard
 │       ├── components/              # Interactive Network Flow Graphs & Malware Behavior Timelines
 │       └── localization/            # English and Kannada Legal Phrase Data Dictionaries
+|       ├── App.jsx
 └── templates/                       # Pre-formatted Layout Blueprints
     └── export_formats/              # FIR-Ready Structured Forensic Report Export Forms
 ```
